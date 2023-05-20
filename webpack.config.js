@@ -22,6 +22,10 @@ module.exports = {
             exclude: /node_modules/, 
             use: ['babel-loader'] 
         },
+        {
+          test: /\.(png|jpg|gif)$/,
+          use: ['file-loader']
+      },
 
       {
         test: /\.scss$/,
@@ -33,6 +37,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "dist"),
     },
+    https: true,
     port: 9000,
   },
   target: "node",
