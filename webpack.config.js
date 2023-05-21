@@ -35,9 +35,9 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "src"),
+      directory: path.join(__dirname, "dist"),
     },
-    https: false,
+    https: true,
     port: 9000,
   },
   target: "node",
