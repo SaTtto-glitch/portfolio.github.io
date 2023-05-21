@@ -10,7 +10,6 @@ import ListItemAvatar from '@mui/material/ListItemAvatar'
 import Avatar from '@mui/material/Avatar'
 import FolderIcon from '@mui/icons-material/Folder'
 
-import DogAppImage from '../images/Dog_app.gif'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -38,7 +37,7 @@ const Works: React.FC = () => {
         <Box display='flex' justifyContent='center' p={1} >
           <List className={classes.root}>
             <ListItem>
-              <ListItemLink href='https://github.com/SaTtto-glitch'>
+              <ListItemLink href='https://github.com/SaTtto-glitch/DogImageApp'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
@@ -46,10 +45,9 @@ const Works: React.FC = () => {
                 </ListItemAvatar>
                 <ListItemText primary='DOGアプリ' secondary='犬の画像をランダムに生成するサイト' />
               </ListItemLink>
-      <img src={DogAppImage} />
             </ListItem>
             <ListItem>
-              <ListItemLink href='#'>
+              <ListItemLink href='https://github.com/SaTtto-glitch/React-forum'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
@@ -59,7 +57,7 @@ const Works: React.FC = () => {
               </ListItemLink>
             </ListItem>
             <ListItem>
-              <ListItemLink href='#'>
+              <ListItemLink href='https://github.com/SaTtto-glitch/bookreview-app'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />

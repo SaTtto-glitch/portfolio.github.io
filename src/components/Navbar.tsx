@@ -1,5 +1,5 @@
 import React from 'react'
-//import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
 import Button from '@mui/material/Button'
@@ -13,18 +13,34 @@ const Navbar: React.FC = () => {
         style={{ alignItems: 'center'}}
       >
         <Toolbar>
+        <AnchorLink href='#about' style={{
+            textDecoration: 'none',
+            color: 'inherit'
+          }}>
             <Button>
               ABOUT
             </Button>
+            </AnchorLink>
+
+            <AnchorLink href='#skills' style={{
+            textDecoration: 'none',
+            color: 'inherit'
+          }}>
             <Button color='inherit'>
               SKILLS
             </Button>
-            <Button color='inherit'>
+          </AnchorLink>
+            
+          <AnchorLink href='#works' style={{
+            textDecoration: 'none',
+            color: 'inherit'
+          }}>
+            
+             <Button color='inherit'>
               Works
             </Button>
-            <Button color='inherit'>
-            CONTACT
-            </Button>
+            </AnchorLink>
+
         </Toolbar>
       </AppBar>
     </>

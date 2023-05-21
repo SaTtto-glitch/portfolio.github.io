@@ -20,7 +20,7 @@ const Skills: React.FC = () => {
           >
             <CardContent>
               <Typography variant="h6">言語</Typography>
-              <Typography color="textSecondary">HTML / CSS / JavaScript / TypeScript</Typography>
+              <Typography color="textSecondary">HTML / CSS / JavaScript / TypeScript / Ruby</Typography>
             </CardContent>
           </Card>
         </Box>
@@ -33,7 +33,22 @@ const Skills: React.FC = () => {
           >
             <CardContent>
               <Typography variant="h6">フレームワーク</Typography>
-              <Typography color="textSecondary">React</Typography>
+              <Typography color="textSecondary">Ruby on Rails / React</Typography>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box display='flex' justifyContent='center' p={1} >
+          <Card sx={{
+              width: 730,
+              maxWidth: "100%",
+            }}>
+            <CardContent>
+              <Typography variant="h6">
+                データベース
+              </Typography>
+              <Typography color="textSecondary">
+                MySQL
+              </Typography>
             </CardContent>
           </Card>
         </Box>

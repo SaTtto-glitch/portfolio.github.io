@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Skills from './components/Skills'
 import Works from './components/Works'
+import ScrollUp from './utils/ScrollUp'
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,8 @@ const App: React.FC = () => {
       <section id='works'>
         <Works />
       </section>
+
+      <ScrollUp />
 
     </>
   );
