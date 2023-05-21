@@ -40,7 +40,7 @@ module.exports = {
     https: true,
     port: 9000,
   },
-  target: "node",
+  target: "web",
 
   resolve: {
     extensions: ['*', '.js', '.jsx', '.json', 'css', '.ts', '.tsx'],
