@@ -37,10 +37,11 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "src"),
     },
-    https: true,
+    https: false,
     port: 9000,
   },
   target: "node",
+
   resolve: {
     extensions: ['*', '.js', '.jsx', '.json', 'css', '.ts', '.tsx'],
     modules: ["node_modules"],
